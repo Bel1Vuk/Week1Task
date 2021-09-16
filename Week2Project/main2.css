@@ -125,3 +125,65 @@ section{
 
 }
 
+
+
+@media  (max-width:600px) {
+    .circles .c1{
+        top:-650px;
+        left:-650px;
+    
+    }
+    .circles .c2{
+        right:-650px;
+        bottom:-650px;
+    
+    }
+}
+
+@media  (max-height:650px) {
+    .circles .c1{
+        top:-650px;
+        left:-650px;
+    
+    }
+    .circles .c2{
+        right:-650px;
+        bottom:-650px;
+    
+    }
+}
+
+
+@media  (max-width:420px) {
+
+    .card{
+        width: 80%;
+        max-height:50%;
+    }
+
+    .circles .c1{
+        top:-650px;
+        left:-650px;
+    
+    }
+    .circles .c2{
+        right:-650px;
+        bottom:-650px;
+    
+    }
+   
+    }
+    @media  (min-width:1900px) and (min-height:1200px) {
+        .circles .c1{
+            top:-400px;
+            left:-250px;
+        
+        }
+        .circles .c2{
+            right:-250px;
+            bottom:-400px;
+        
+        }
+    }
+
+
