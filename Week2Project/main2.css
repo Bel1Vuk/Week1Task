@@ -138,6 +138,7 @@ section{
         bottom:-650px;
     
     }
+  
 }
 
 @media  (max-height:650px) {
@@ -151,14 +152,14 @@ section{
         bottom:-650px;
     
     }
+
 }
 
 
 @media  (max-width:420px) {
 
     .card{
-        width: 80%;
-        max-height:50%;
+        width: 80vw; 
     }
 
     .circles .c1{
@@ -169,7 +170,6 @@ section{
     .circles .c2{
         right:-650px;
         bottom:-650px;
-    
     }
    
     }
@@ -182,8 +182,25 @@ section{
         .circles .c2{
             right:-250px;
             bottom:-400px;
-        
+        }
+        .card{
+            width: 19vw;
+            height:33vh; 
+        }
+    }
+    @media (min-height:1350px) {
+      
+        .card{
+            height:30vh; 
         }
     }
 
+    @media
+     (min-height:1500px) {
+      
+        .card{
+            height:28vh; 
+        }
+    }
+  
 
